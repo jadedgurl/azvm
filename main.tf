@@ -1,7 +1,7 @@
 locals{ 
   storage_name= ["north","south","east","west"]
   superstar= ["jade","saj","idk","douglas","emannuel","olarewaju"]
-vm_names= ["cool", "chic", "sea"]
+  vm_names= ["cool", "chic", "sea"]
 }
   resource "azurerm_resource_group" "butterfly" {
   name     = "lmao"
